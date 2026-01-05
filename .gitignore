@@ -101,3 +101,4 @@ firebase-debug.log
 
 # Dist
 dist/
+firebase-config.json
