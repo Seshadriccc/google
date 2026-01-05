@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    @apply bg-slate-50 text-slate-900;
+    background: radial-gradient(circle at 50% 120%, #e0f2fe, #f8fafc);
+    min-height: 100vh;
+  }
+}
